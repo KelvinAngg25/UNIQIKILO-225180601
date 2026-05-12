@@ -147,6 +147,7 @@ function tambahKeranjang(produk) {
             }
         }
     }
+    alert("Produk Berhasil Ditambahkan Ke Keranjang");
 }
 var home = document.querySelector('#home');
 var cart = document.querySelector('#keranjang');
