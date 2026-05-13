@@ -289,6 +289,8 @@ function gantiTampilanCart() {
     navbarCart.classList.add('text-secondary')
 }
 
+cetakTulisanHasil(listProduk);
+
 for (var i = 0; i < listProduk.length ; i++) {
     printProduk(listProduk[i]);
 }
